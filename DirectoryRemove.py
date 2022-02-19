@@ -1,6 +1,6 @@
 import os
 # © Akshaya Simha
-# This code attempts to be creating a directory.
+# This code attempts to be removing a directory.
 
 dir_name = input("Enter the directory name to be removed: ")
 dir_name = dir_name.lower()
