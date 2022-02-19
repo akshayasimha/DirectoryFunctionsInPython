@@ -6,7 +6,7 @@ dir_name = input("Enter the directory name to be removed: ")
 dir_name = dir_name.lower()
 
 if dir_name == "con" or dir_name == "lpt" or dir_name == "prn" or dir_name == "aux":
-    print("These names are reserved for Windows operating systems.)
+    print("These names are reserved for Windows operating systems.")
     print("You cannot remove %s." % dir_name)
     
 elif os.path.exists(dir_name):
